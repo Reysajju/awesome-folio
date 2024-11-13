@@ -12,7 +12,7 @@ export default async function handler(req: Request) {
   try {
     const data = await resend.emails.send({
       from: 'Contact Form <onboarding@resend.dev>',
-      to: 'contact@sajjadrasool.com',
+      to: 'sajjjad.rasool@gmail.com',
       subject: `New Contact Form Submission from ${name}`,
       text: `
 Name: ${name}
